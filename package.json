@@ -1,0 +1,24 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facundonapal/crawler-test.git"
+  },
+  "author": "Facundo Napal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/facundonapal/crawler-test/issues"
+  },
+  "homepage": "https://github.com/facundonapal/crawler-test#readme",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "jsdom": "^16.2.2",
+    "request-promise": "^4.2.5"
+  }
+}
