@@ -3,7 +3,8 @@ const rp = require('request-promise');
 const JSDOM = require('jsdom').JSDOM;
 
 // Obtencion de HTML desde URL
-// PREGUNTA: donde y como puedo encontrar una explicacion mas detallada de como funcionan las 'promises', porque se le pasa como parametro a la funcion 'html'?
+// PREGUNTA: donde y como puedo encontrar una explicacion mas detallada de como funcionan las 'promises', 
+// porque se le pasa como parametro a la funcion 'html'?
 rp('http://comosiempreorganico.com/').then(html => {
 
 	// Generando DOM a partir del HTML
